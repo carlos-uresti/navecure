@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "266676338116",
+    "project_id": "navecure-6e845",
+    "storage_bucket": "navecure-6e845.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266676338116:android:c2c42b583cf662129ff891",
+        "android_client_info": {
+          "package_name": "com.example.navecure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266676338116-ah2lku25j6gr6ibnpghtlvv1a72j7odh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPsBH7fdmsF_tPFk7x3rFr_KEbj55zup8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266676338116-ah2lku25j6gr6ibnpghtlvv1a72j7odh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

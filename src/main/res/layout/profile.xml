@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/v_sec"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/testback2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/userInfo"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="sans-serif-black"
+        android:text="User Information"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C3C3" />
+
+            <EditText
+                android:id="@+id/lname"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C1C1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#FAFAFA"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C6C6C6" />
+
+<!--            <EditText-->
+<!--                android:id="@+id/email"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="62dp"-->
+<!--                android:backgroundTint="#FAF8F8"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Email"-->
+<!--                android:textColor="#FBF9F9"-->
+<!--                android:inputType="textEmailAddress"-->
+<!--                android:textColorHint="#CAC9C9" />-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C3C3" />
+
+            <EditText
+                android:id="@+id/zip"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="#F3F1F1"
+                android:ems="10"
+                android:hint="Zipcode"
+                android:inputType="number"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C6C6C6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="#FAFAFA"
+                android:ems="10"
+                android:hint="City"
+                android:textColor="#FBF9F9"
+                android:inputType="textAutoComplete"
+                android:textColorHint="#C6C6C6" />
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="State"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C1C1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Vehicle Information"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/make"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="Make"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C3C3" />
+
+            <EditText
+                android:id="@+id/year"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="#F3F1F1"
+                android:ems="10"
+                android:hint="Year"
+                android:textColor="#FBF9F9"
+                android:inputType="number"
+                android:textColorHint="#C6C6C6" />
+
+            <EditText
+                android:id="@+id/plate"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="License Plate"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C3C3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/model"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="Model"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C3C3" />
+
+            <EditText
+                android:id="@+id/color"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="Color"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C3C3" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/eInfo"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Emergency Contact"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="201dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/eFname"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C3C3" />
+
+            <EditText
+                android:id="@+id/relation"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="Relation"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C3C3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/eLname"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C5C3C3" />
+
+            <EditText
+                android:id="@+id/ePhone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#FAFAFA"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textColor="#FBF9F9"
+                android:textColorHint="#C6C6C6" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#000000"
+        app:backgroundTint="@color/cardview_light_background" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:menu="@menu/bottom_nav_menu" />
+</LinearLayout>
